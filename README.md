@@ -1,2 +1,3 @@
 # bitbucket-pipeline-image
-Dockerfiles for Bitbucket pipeline image
+
+Dockerfile for Bitbucket pipeline image
