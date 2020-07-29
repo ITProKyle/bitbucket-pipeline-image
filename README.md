@@ -1,13 +1,16 @@
 # bitbucket-pipeline-image
 
-Bitbucket pipeline image containing the components most used for testing and building projects. The tabs revolve around the primary language required but will include all listed languages. If the tag is not specific to a language, the latest version of the language is used.
+Bitbucket pipeline image containing the components most used for testing and building projects.
+The tags revolve around the primary language required but will include all listed languages.
+If the tag is not specific to a language, the latest version of the language is used.
 
 
 ## Contains
 
 - bash
 - python
-  - pipenv
+  - [pipenv](https://pipenv.pypa.io/en/latest/)
+- [poetry](https://python-poetry.org/)
 
 
 ## Development
