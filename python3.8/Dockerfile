@@ -5,7 +5,7 @@ RUN pip install --upgrade pip setuptools
 RUN pip install --upgrade pipenv
 
 # setup poetry
-ENV POETRY_VERSION "1.0.10"
+ENV POETRY_VERSION "1.1.1"
 RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 ENV PATH "$PATH:/root/.poetry/bin"
 
