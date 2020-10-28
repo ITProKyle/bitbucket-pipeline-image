@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: Label based on branch prefix
         if: github.event_name == 'pull_request' && github.event.action == 'opened'
-        uses: TimonVS/pr-labeler@v1.0.1
+        uses: TimonVS/pr-labeler@v3.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
