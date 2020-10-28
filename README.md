@@ -8,6 +8,8 @@ If the tag is not specific to a language, the latest version of the language is 
 ## Contains
 
 - bash
+- git
+- make
 - python
   - [pipenv](https://pipenv.pypa.io/en/latest/)
 - [poetry](https://python-poetry.org/)
