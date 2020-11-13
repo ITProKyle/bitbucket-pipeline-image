@@ -10,6 +10,8 @@ If the tag is not specific to a language, the latest version of the language is 
 - bash
 - git
 - make
+- npm
+  - [pyright](https://www.npmjs.com/package/pyright/) (python static type checker)
 - python
   - [pipenv](https://pipenv.pypa.io/en/latest/)
 - [poetry](https://python-poetry.org/)
