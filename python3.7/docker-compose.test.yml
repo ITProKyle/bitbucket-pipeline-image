@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+  svt:
+    build:
+      context: .
+    command: bash /tests/run.sh
+    volumes:
+      - ../tests:/tests
